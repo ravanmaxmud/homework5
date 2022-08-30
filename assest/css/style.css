@@ -1,0 +1,338 @@
+html,body{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background-color: white;
+    padding: 1.5rem 6rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+#header .logo {
+    float: left;
+}
+
+#header .logo a {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#header .nav-bar {
+    float: right;
+}
+
+#header .nav-bar a {
+    color: white;
+    background-color: #0d6efd;
+    padding: 17px 20px;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#header .nav-bar a:hover{
+    background-color: #0569ffce;
+}
+
+#sea {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9rem 0;
+   background-attachment: fixed;
+
+}
+
+#sea .top {
+    text-align: center;
+}
+
+#sea .top h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 50px;
+    padding: 1px 430px;
+}
+
+.foot {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foot input {
+    outline: none;
+    padding: 1.25rem;
+    padding-right: 250px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 30px;
+    color: #212529;
+    border: 1px solid;
+}
+
+.foot button {
+    padding: 22px 23px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #0d6efd;
+}
+.foot button:hover{
+    background-color: #0d6dfdc5;
+    scale: 1.1;
+}
+#fully {
+    padding: 5rem 6rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F9FA;
+}
+
+#fully .text i {
+    margin-top: 70px;
+    font-size: 70px;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+#fully .text i:hover{
+    scale: 1.1;
+}
+
+#fully .text p {
+    font-size: 1.25rem;
+    padding: 1px 70px;
+    font-weight: 300;
+    color: #35373a;
+}
+
+#fully .text h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    margin-top: 10px;
+}
+#show-case{
+    padding: 0 0;
+   overflow: auto;
+}
+#show-case img {
+    outline: none;
+}
+.phone .text {
+    float: left;
+    width: 50%;
+    padding: 125px;
+    padding-bottom: 134px;
+}
+
+#show-case .phone .image{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg);
+    width: 50%;
+    float: right;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 197px 200px;
+    background-attachment: inherit;
+}
+.phone .text p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.phone .text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#show-case .code .image{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg);
+    width: 50%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 197px 200px;
+    background-attachment: fixed;
+}
+.code .text {
+    float: right;
+    width: 50%;
+    padding: 125px;
+    padding-bottom: 133px;
+
+}
+.code .text p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.code .text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#show-case .notebook .image{
+    width: 50%;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg);
+    float: right;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 209px 200px;
+}
+.notebook .text {
+    float: left;
+    width: 50%;
+    padding: 125px;
+    padding-bottom: 163px;
+}
+.notebook .text p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.notebook .text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#people .head{
+    text-align: center;
+}
+#people{
+    padding: 3rem 6rem;
+    overflow: auto;
+    background-color: #F8F9FA;
+}
+.head h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.cart{
+width: 30%;
+float: left;
+}
+.cart-img img{
+    width: 60%;
+    vertical-align: bottom;
+    border-radius:50%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    filter: grayscale();
+    margin-left: 90px;
+}
+.cart-img img:hover{
+    filter:none;
+    border: 0.5rem solid #0d6efd;
+}
+.cart-img{
+    text-align: center;
+    padding: 3rem 0;
+}
+.cart-text{
+    text-align: center;
+    margin-left: 90px;
+}
+.cart-text h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+#sigin {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 3rem 0;
+}
+
+#sigin .top {
+    text-align: center;
+}
+
+#sigin .top h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 60px;
+    padding: 1px 430px;
+}
+
+#sigin .foot {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sigin .foot input {
+    outline: none;
+    padding: 1.25rem;
+    padding-right: 250px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 30px;
+    color: #212529;
+    border: 1px solid;
+}
+
+#sigin .foot button {
+    padding: 22px 23px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #0d6efd;
+}
+#footer{
+    padding: 3rem 6rem;
+}
+#footer .left{
+    float: left;
+}
+#footer .left a{
+    color: #0d6efd;
+    padding: 0 5px;
+    text-decoration: underline;
+}
+#footer .left p{
+    color: #6c757d;
+    font-size: 15px;
+}
+#footer .right{
+    float: right;
+}
+#footer .right i{
+    font-size: 30px;
+    padding: 0 4px;
+}
+#footer .right i:hover{
+  color: #0d6efd;
+}
